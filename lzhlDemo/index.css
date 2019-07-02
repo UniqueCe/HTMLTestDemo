@@ -1,0 +1,100 @@
+
+/* 导航栏 */
+.navDiv {
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 99;
+}
+
+.log {
+    padding-top: 70px;
+    vertical-align: middle;
+}
+
+.log img {
+    height: 40px;
+}
+
+
+/* 首屏背景 */
+.sectionItem {
+    position: relative;
+}
+
+.section-pc {
+    overflow: hidden;
+    background: transparent fixed;
+}
+
+.vodeoBox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/* 关于我们 */
+.aboutUs {
+    width: 100%;
+    height: 2000px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+/* 咨询 */
+.consultingStyle {
+    position: fixed; /* 定位：固定定位 */
+    width: 158px;
+    height: 114px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 10px; /* 圆角半径 */
+    border: 1px solid #cbcbcb; /* 边框：宽度、样式：实线、边框颜色 */
+}
+
+.consultingH5 {
+    display: block;
+    height: 35px;
+    text-align: center;
+    background-color: #fe4f4a;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    letter-spacing: 10px; /* 字母间距 */
+    line-height: 35px; /* 行间距 */
+}
+
+.consultingStyle_tel {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 25px;
+    height: 79px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.consultingStyle_tel h5 {
+    display: inline-block;
+    background: url("images/adviceRight_tel.png") no-repeat left center;
+    padding-left: 30px;
+    text-align: center;
+    color: #666666;
+}
+
+.consultingStyle_tel h6 {
+    text-align: center;
+    color: #fe4f4a;
+}

@@ -1,0 +1,12 @@
+/* 样式 */
+
+.a {
+    font-size: 10px;
+}
+
+.alertStyle {
+    font-size: 20px;
+    color: orange;
+    background-color: #DBDBDB;
+    border:1px solid red;
+}
